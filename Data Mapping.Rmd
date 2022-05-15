@@ -1,0 +1,55 @@
+---
+title: "Data Mapping for Complex Projects"
+author: "Kendra Blalock"
+date: "5/14/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(knitr)
+
+```
+
+
+# Visual Detangling 
+
+Having recently started a new job, I temporarily paused my fun, side analyses to be able to focus my mental energy toward settling into my new position. Much of my new job requires manipulation of complex datasets and merging information from various data sources. My first order of business was to repeat the dataset development steps for an analysis developed by my predecessor, using updated data. 
+ 
+I needed to get a handle on the project quickly to meet the timeline, so I decided to map out as much as I could visually. There are many good tools available; the one I selected was miro <https://miro.com/>. 
+
+I choose a distinctive symbol to represent each of the different data tables (internal sources, external sources, intermediary tables, and final tables), as well as for SQL vs. R scripts.
+
+![](Screenshot 2022-05-11 162846.png)
+
+Electronically mapping out the flow of the project allowed me to update the diagram frequently as I made changes. With the project now finalized, I have a beautiful picture to serve as a road map for myself and others in the future. (I have removed all project specific labels for this posting.)
+
+![](Screenshot 2022-05-11 092110.png)
+
+To complete this project, there were:
+
+- 21 different data source tables
+-	6 SQL scripts with
+  - 484 select statements used
+  - 234 intermediary tables created
+  - 142 where clauses used
+  - 124 joins used
+    -	88 left joins
+    -	34 inner joins
+    -	2 outer joins
+    -	0 right joins
+-	28 R scripts
+  -	24 R libraries loaded
+  -	509 pipping symbols used (%>%)
+  -	1277 assignment operators used (<-)
+
+
+From there I adopted the same approach for a new project which is still currently underway.
+
+![](Screenshot 2022-05-11 093007.png)
+
+Just fun and colorful examples of how non-data related tools can help move projects forward.
