@@ -1,7 +1,7 @@
 ---
 title: "Data Mapping for Complex Projects"
 author: "Kendra Blalock"
-date: "5/14/2022"
+date: "5/19/2022"
 output: html_document
 ---
 
@@ -22,7 +22,7 @@ Having recently started a new job, I temporarily paused my fun, side analyses to
  
 I needed to get a handle on the project quickly to meet the timeline, so I decided to map out as much as I could visually. There are many good tools available; the one I selected was miro <https://miro.com/>. 
 
-I choose a distinctive symbol to represent each of the different data tables (internal sources, external sources, intermediary tables, and final tables), as well as for SQL vs. R scripts.
+I chose a distinctive symbol to represent each of the different data tables (internal sources, external sources, intermediary tables, and final tables), as well as for SQL vs. R scripts.
 
 ![](Screenshot 2022-05-11 162846.png)
 
@@ -44,12 +44,12 @@ To complete this project, there were:
     -	0 right joins
 -	28 R scripts
   -	24 R libraries loaded
-  -	509 pipping symbols used (%>%)
+  -	509 piping symbols used (%>%)
   -	1277 assignment operators used (<-)
 
 
-From there I adopted the same approach for a new project which is still currently underway.
+From there I adopted the same approach for mapping a new project which is still currently underway.
 
-![](Screenshot 2022-05-11 093007.png)
+![](Screenshot 2022-05-19 120707.png)
 
 Just fun and colorful examples of how non-data related tools can help move projects forward.
